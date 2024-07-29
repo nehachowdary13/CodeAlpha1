@@ -1,40 +1,22 @@
-Hangman Game
-Overview
-Welcome to the Hangman Game! This simple Python game challenges you to guess a randomly selected word by guessing individual letters. You have a limited number of incorrect guesses to identify the word before you lose.
+# Hangman Game
 
-Features
-Randomly selects a word from a predefined list.
-Allows you to guess letters one at a time.
-Tracks incorrect guesses and provides feedback on the number of remaining chances.
-Displays the current state of the word with correctly guessed letters revealed and placeholders for remaining letters.
-Ends the game when the word is correctly guessed or when the number of incorrect guesses exceeds the allowed limit.
-How to Run
-Ensure you have Python installed on your machine.
+## Overview
 
-Copy the code into a Python file, for example, hangman.py.
+Welcome to the Hangman Game! This is a simple Python script that lets you play the classic word-guessing game of Hangman. The game selects a word at random from a predefined list, and you have to guess the letters in the word before running out of chances.
 
-Open a terminal or command prompt.
+## Features
 
-Navigate to the directory containing hangman.py.
+- **Random Word Selection:** Chooses a word randomly from a predefined list.
+- **Interactive Gameplay:** Allows you to guess letters and updates the display of the word with guessed letters.
+- **Guess Tracking:** Tracks and displays the number of incorrect guesses left.
+- **Game End Conditions:** Ends when the word is completely guessed or the maximum number of incorrect guesses is reached.
 
-Run the script using the command:
+## How to Run
 
-bash
-Copy code
-python hangman.py
-Follow the prompts to guess letters and try to complete the word before running out of chances.
+1. **Ensure Python is Installed:** Make sure you have Python installed on your machine.
+2. **Save the Code:** Copy the provided code into a Python file, e.g., `hangman.py`.
+3. **Open Terminal/Command Prompt:** Navigate to the directory where `hangman.py` is located.
+4. **Run the Script:** Execute the script using the following command:
 
-Code Explanation
-Imports: The random module is used to select a random word from a predefined list.
-Word Selection: A word is randomly chosen from the list of words.
-Game Initialization: Initializes the guessed letters with underscores and sets the maximum number of incorrect guesses.
-Game Loop: Repeatedly prompts the user for a letter guess, updates the guessed letters or incorrect guesses, and checks for win/loss conditions.
-End Conditions: The game ends when either the word is completely guessed or the maximum number of incorrect guesses is reached.
-Customization
-You can customize the list of words by modifying the words list in the script. Adjust the number of allowed incorrect guesses by changing the max_incorrect_guesses variable.
-
-License
-This project is open source and available under the MIT License.
-
-Contact
-For any questions or feedback, please reach out to [your email or contact information].
+   ```bash
+   python hangman.py
