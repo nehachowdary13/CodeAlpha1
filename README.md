@@ -2,21 +2,23 @@
 
 ## Overview
 
-Welcome to the Hangman Game! This is a simple Python script that lets you play the classic word-guessing game of Hangman. The game selects a word at random from a predefined list, and you have to guess the letters in the word before running out of chances.
+Welcome to the Hangman Game! This simple Python game challenges you to guess a randomly selected word by guessing individual letters. You have a limited number of incorrect guesses to identify the word before you lose.
 
 ## Features
 
-- **Random Word Selection:** Chooses a word randomly from a predefined list.
-- **Interactive Gameplay:** Allows you to guess letters and updates the display of the word with guessed letters.
-- **Guess Tracking:** Tracks and displays the number of incorrect guesses left.
-- **Game End Conditions:** Ends when the word is completely guessed or the maximum number of incorrect guesses is reached.
+- **Randomly selects** a word from a predefined list.
+- **Allows you to guess** letters one at a time.
+- **Tracks incorrect guesses** and provides feedback on the number of remaining chances.
+- **Displays the current state** of the word with correctly guessed letters revealed and placeholders for remaining letters.
+- **Ends the game** when the word is correctly guessed or when the number of incorrect guesses exceeds the allowed limit.
 
 ## How to Run
 
-1. **Ensure Python is Installed:** Make sure you have Python installed on your machine.
-2. **Save the Code:** Copy the provided code into a Python file, e.g., `hangman.py`.
-3. **Open Terminal/Command Prompt:** Navigate to the directory where `hangman.py` is located.
-4. **Run the Script:** Execute the script using the following command:
+1. **Ensure Python is installed** on your machine.
+2. **Copy the code** into a Python file, for example, `hangman.py`.
+3. **Open a terminal** or command prompt.
+4. **Navigate to the directory** containing `hangman.py`.
+5. **Run the script** using the command:
 
    ```bash
    python hangman.py
